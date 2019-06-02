@@ -2,7 +2,4 @@ section.homepage-news.CV
   .container
     h2
       | CV
-    .news-items
-      //get the first two most recent posts
-      - blog.articles.each do | article |
-        = partial 'partials/news/news_item', locals: {article: article}
+  
