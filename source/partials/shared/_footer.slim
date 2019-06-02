@@ -1,3 +1,4 @@
+
 footer
   = partial 'partials/shared/header-primary'
 
@@ -7,4 +8,16 @@ footer
           li
             = nav_link nav_item.label, nav_item.path
   
- 
+  .footer-content
+    .container-fluid
+      .row
+        
+
+        .social
+          .icons
+            = link_to '#'
+              = image_tag "social/facebook.svg"
+            = link_to '#'
+              = image_tag "social/twitter.svg"
+            = link_to 'https://github.com/tomrutgers/middleman-starter-netlify-cms'
+              = image_tag "social/github.svg"
